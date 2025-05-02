@@ -1,0 +1,61 @@
+/* Contenedor principal centrado y con fuente sans-serif */
+.container {
+  text-align: center; /* Centra el contenido horizontalmente */
+  font-family: Arial, sans-serif; /* Define la fuente del texto */
+}
+/* Tarjeta de presentación del empleado */
+.empleado-card {
+  border: 2px solid #ccc; /* Borde gris claro */
+  padding: 10px; /* Espaciado interno */
+  margin: 10px; /* Espaciado externo */
+  display: inline-block; /* Muestra las tarjetas en línea */
+  width: 250px; /* Ancho fijo */
+  border-radius: 5px; /* Esquinas redondeadas */
+  text-align: center; /* Centra el contenido dentro de la tarjeta */
+  transition: background-color 0.3s, color 0.3s; /* Suaviza los cambios de color */
+}
+/* Estilos para empleados activos */
+.empleado-card.activo {
+  background-color: #d4edda; /* Fondo verde claro */
+  border-color: #28a745; /* Borde verde */
+  color: #155724; /* Texto verde oscuro */
+}
+/* Estilos para empleados inactivos */
+.empleado-card.inactivo {
+  background-color: #f8d7da; /* Fondo rojo claro */
+  border-color: #dc3545; /* Borde rojo */
+  color: #721c24; /* Texto rojo oscuro */
+}
+
+/* Texto de estado activo */
+.estado-activo {
+  color: #28a745; /* Verde */
+  font-weight: bold; /* Texto en negrita */
+}
+
+/* Texto de estado inactivo */
+.estado-inactivo {
+  color: #dc3545; /* Rojo */
+  font-weight: bold; /* Texto en negrita */
+}
+/* Botón para cambiar el estado del empleado */
+.cambiar-estado-btn {
+  padding: 5px 10px; /* Espaciado interno */
+  margin-top: 5px; /* Margen superior */
+  cursor: pointer; /* Cambia el cursor al pasar por encima */
+  border: none; /* Sin borde */
+  border-radius: 5px; /* Esquinas redondeadas */
+  background-color: #007bff; /* Fondo azul */
+  color: white; /* Texto blanco */
+}
+
+/* Efecto hover para el botón */
+.cambiar-estado-btn:hover {
+  background-color: #0056b3; /* Azul más oscuro al pasar el mouse */
+}
+/* Estilo para elementos <select> */
+select {
+  padding: 5px; /* Espaciado interno */
+  margin: 10px; /* Margen alrededor */
+  font-size: 16px; /* Tamaño de fuente */
+}
