@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/palomeke/ejercicio-guiado-3---react.git/static/css/main.0651def2.css",
-    "main.js": "/palomeke/ejercicio-guiado-3---react.git/static/js/main.8771546e.js",
+    "main.js": "/palomeke/ejercicio-guiado-3---react.git/static/js/main.7b8e54f5.js",
     "static/js/453.aaa1a7e0.chunk.js": "/palomeke/ejercicio-guiado-3---react.git/static/js/453.aaa1a7e0.chunk.js",
     "index.html": "/palomeke/ejercicio-guiado-3---react.git/index.html",
     "main.0651def2.css.map": "/palomeke/ejercicio-guiado-3---react.git/static/css/main.0651def2.css.map",
-    "main.8771546e.js.map": "/palomeke/ejercicio-guiado-3---react.git/static/js/main.8771546e.js.map",
+    "main.7b8e54f5.js.map": "/palomeke/ejercicio-guiado-3---react.git/static/js/main.7b8e54f5.js.map",
     "453.aaa1a7e0.chunk.js.map": "/palomeke/ejercicio-guiado-3---react.git/static/js/453.aaa1a7e0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0651def2.css",
-    "static/js/main.8771546e.js"
+    "static/js/main.7b8e54f5.js"
   ]
 }
